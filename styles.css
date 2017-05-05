@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, p, span {
+  color: white;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: 600;
+  line-height: 180%;
+}
+
+/* GENERAL */
+
+.caption {
+  width: 100%;
+  height: 10vh;
+  padding: 0 5vw;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255, 247, 0, 0.3);
+}
+
+.caption p {
+  line-height: 140%;
+  font-weight: 400;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* HERO */
+
+.hero {
+  padding: 5vh 5vw;
+  min-height: 180vh;
+  width: 100vw;
+  background: url('./assets/bg1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero .buffer {
+  height: 100vh;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: 15px solid yellow;
+}
+
+.hero-header {
+  font-size: 5rem;
+  width: 70%;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.hero-subheader {
+  font-weight: 500;
+  width: 80%;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+/*.plur-video {
+  width: 100%;
+  height: auto;
+}*/
+
+/* INTRO */
+
+.intro {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10vh 20vw;
+}
+
+/* FIRSTAID */
+
+.first-aid {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('./assets/first-aid.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* FILLER */
+
+.filler {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10vh 20vw;
+}
+
+.filler p {
+  display: inline-block;
+}
+
+.filler img {
+  display: inline-block;
+  height: 80%;
+  width: auto;
+}
+
+ /* PHOTO1 */
+
+.drugs {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('./assets/drugs.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ /* PHOTO2 */
+
+.save-card {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('./assets/save-card.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
