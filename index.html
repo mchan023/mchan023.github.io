@@ -4,13 +4,25 @@
     <title>MC Photography</title>
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
   </head>
 
   <body>
 
     <section class="hero">
-      <div class="buffer"></div>
+      <i id="control-button" class="fa fa-play-circle-o play-button" aria-hidden="true"></i>
+      <div class="video">
+        <video poster="./assets/bg1.jpg" id="video">
+            <!-- <source src="video/big_buck_bunny.webm" type="video/webm"> -->
+            <source src="./assets/plur-video.mp4" type="video/mp4">
+            <!-- <source src="video/big_buck_bunny.ogv" type="video/ogg"> -->
+        </video>
+      </div>
+      <div id="custom-seekbar">
+        <span></span>
+      </div>
+      <!-- <div class="buffer"></div> -->
 
       <h1 class="hero-header"><u>Coping with Acculturative Stress</u></h1>
       <h3 class="hero-subheader">MDMA Usage among Asian American Young Adults in the Electronic Dance Music Scene <span class="small">By Michelle Chan, Pomona College '17</span></h3>
@@ -66,6 +78,12 @@
 
   <!-- <p><a href="https://vimeo.com/216136631">At the Margins of PLUR</a> from <a href="https://vimeo.com/michellechan023">Michelle Chan</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
     <!-- <img src="./assets/bg1.jpg"> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
   </body>
 
 
