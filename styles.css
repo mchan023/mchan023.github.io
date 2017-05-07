@@ -39,13 +39,16 @@ p {
   transform: translateY(-50%);
 }
 
+/* HEADER */
+
+
 /* HERO */
 
 .hero {
   position: relative;
   padding: 15vh 5vw 5vh 5vw;
   min-height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -135,7 +138,7 @@ u {
 .intro {
   position: relative;
   min-height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   padding: 10vh 20vw;
   background-color: black;
 }
@@ -145,7 +148,7 @@ u {
 .first-aid {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   background: url('./assets/first-aid.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -157,7 +160,7 @@ u {
 
 .filler {
   min-height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   padding: 10vh 20vw;
 }
 
@@ -176,7 +179,7 @@ u {
 .drugs {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   background: url('./assets/drugs.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -189,7 +192,7 @@ u {
 .save-card {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   background: url('./assets/save-card.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
