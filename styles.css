@@ -155,7 +155,6 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
 }
 
 /* MESSAGE */
@@ -199,7 +198,6 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
 }
 
  /* PHOTO2 */
@@ -213,7 +211,10 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
+}
+
+.ripple-effect--hover {
+  background-color: white;
 }
 
 /* MEDIA QUERIES */
