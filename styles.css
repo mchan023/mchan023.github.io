@@ -155,6 +155,7 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 /* MESSAGE */
@@ -198,6 +199,7 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: scroll;
 }
 
  /* PHOTO2 */
@@ -211,6 +213,7 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 /* MEDIA QUERIES */
@@ -237,11 +240,5 @@ u {
     font-size: 32px;
     right: 25px;
     bottom: 40px;
-  }
-}
-
-@media (max-width: @iphone-screen) {
-  .first-aid, .drugs, .save-card {
-    background-attachment: scroll;
   }
 }
