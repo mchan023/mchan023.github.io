@@ -1,5 +1,7 @@
 /* Video play control code */
 
+console.log(window.innerWidth);
+
 $('#control-button').on('click', () => {
 
   let isPlaying = $('#control-button').hasClass('fa-pause-circle-o');
@@ -9,13 +11,15 @@ $('#control-button').on('click', () => {
 
 
   // scroll to top
-  if (isPlaying ){
+  if (isPlaying){
     $('.hero-header').fadeIn('slow');
     $('.hero-subheader').fadeIn('slow');
+    $('#custom-seekbar').fadeOut('slow');
     $('#video').get(0).pause();
   } else {
     $('.hero-header').fadeOut('slow');
     $('.hero-subheader').fadeOut('slow');
+    $('#custom-seekbar').fadeIn('slow');
     $('#video').get(0).play();
   }
 
@@ -37,3 +41,19 @@ $("#custom-seekbar").on("click", function(e){
     var vidTime = vid.duration * percentage;
     vid.currentTime = vidTime;
 });//click()
+
+
+// var message = "I miss you :(";
+// var original;
+
+// $(window).focus(function() {
+//   if (original) {
+//     document.title = original;
+//   }
+// }).blur(function() {
+//   var title = $("title").text();
+//   if (title != message) {
+//     original = title;
+//   }
+//   document.title = message;
+// });

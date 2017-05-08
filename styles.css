@@ -26,7 +26,7 @@ p {
   height: 10vh;
   padding: 0 5vw;
   position: absolute;
-  bottom: 0;
+  top: 0;
   background-color: rgba(255, 247, 0, 0.3);
 }
 
@@ -89,6 +89,7 @@ p {
 }
 
 #custom-seekbar {
+  display: none;
   cursor: pointer;
   height: 15px;
   margin: 0 auto;
@@ -139,7 +140,7 @@ u {
   position: relative;
   min-height: 100vh;
   max-width: 100vw;
-  padding: 10vh 20vw;
+  padding: 8vh 20vw;
   background-color: black;
 }
 
@@ -154,6 +155,18 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/* MESSAGE */
+
+.message {
+  max-width: 100vw;
+  padding: 8vh 20vw;
+  background-color: yellow;
+}
+
+.message p {
+  color: black;
 }
 
 /* FILLER */
@@ -198,4 +211,35 @@ u {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.ripple-effect--hover {
+  background-color: white;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 40em) {
+
+  .hero-header {
+    font-size: 2rem;
+  }
+
+  u {
+    border-bottom: 5px solid yellow;
+  }
+
+  .intro {
+    padding: 8vh 10vw;
+  }
+
+  .message {
+    padding: 8vh 10vw;
+  }
+
+  .hero .play-button {
+    font-size: 32px;
+    right: 25px;
+    bottom: 40px;
+  }
 }
