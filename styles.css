@@ -134,7 +134,7 @@ u {
 /* NAV */
 
 #nav {
-  transition: all 1s ease;
+  transition: all 1.5s ease;
   height: 50px;
   width: 100vw;
   position: fixed;
@@ -237,63 +237,37 @@ nav ul li a:focus, nav ul li a:hover {
 
 /* PHOTOS */
 
-.booths {
-  background: url('./assets/booths.jpg') no-repeat center center fixed;
-}
+/* food, sign, dreamcatcher, people3, confetti, people-air, tired-guy */
 
-.water {
-  background: url('./assets/water.jpg') no-repeat center center fixed;
-}
+.food { background: url('./assets/images/food.jpg') no-repeat center center fixed; }
+.sign { background: url('./assets/images/sign.jpg') no-repeat center center fixed; }
+.dreamcatcher { background: url('./assets/images/dreamcatcher.jpg') no-repeat center center fixed; }
+.people3 { background: url('./assets/images/people3.jpg') no-repeat center center fixed; }
+.confetti { background: url('./assets/images/confetti.jpg') no-repeat center center fixed; }
+.people-air { background: url('./assets/images/people-air.jpg') no-repeat center center fixed; }
+.tired-guy { background: url('./assets/images/tired-guy.jpg') no-repeat center center fixed; }
+.plur-girl { background: url('./assets/images/plur-girl.jpg') no-repeat center center fixed; }
+.booths { background: url('./assets/images/booths.jpg') no-repeat center center fixed; }
+.water { background: url('./assets/images/water.jpg') no-repeat center center fixed; }
+.police { background: url('./assets/images/police.jpg') no-repeat center center fixed; }
+.first-aid { background: url('./assets/images/first-aid.jpg') no-repeat center center fixed; }
+.oasis { background: url('./assets/images/oasis.jpg') no-repeat center center fixed; }
+.drugs { background: url('./assets/images/drugs.jpg') no-repeat center center fixed; }
+.drugs-2 { background: url('./assets/images/drugs2.jpg') no-repeat center center fixed; }
+.alert { background: url('./assets/images/alert.jpg') no-repeat center center fixed; }
+.jesus { background: url('./assets/images/jesus.jpg') no-repeat center center fixed; }
+.people1 { background: url('./assets/images/people1.jpg') no-repeat center center fixed; }
+.people2 { background: url('./assets/images/people2.jpg') no-repeat center center fixed; }
+.stage { background: url('./assets/images/stage.jpg') no-repeat center center fixed; }
+.lights { background: url('./assets/images/lights.jpg') no-repeat center center fixed; }
+.save-card { background: url('./assets/images/save-card.jpg') no-repeat center center fixed; }
+.smoky { background: url('./assets/images/smoky.jpg') no-repeat center center fixed; }
+.sleeping-guy { background: url('./assets/images/sleeping-guy.jpg') no-repeat center center fixed; }
+.two-guys { background: url('./assets/images/two-guys.jpg') no-repeat center center fixed; }
+.end { background: url('./assets/images/end.jpg') no-repeat center center fixed; }
+.dark-end { background: url('./assets/images/dark-end.jpg') no-repeat center center fixed; }
 
-.police {
-  background: url('./assets/police.jpg') no-repeat center center fixed;
-}
-
-.first-aid {
-  background: url('./assets/first-aid.jpg') no-repeat center center fixed;
-}
-
-.oasis {
- background: url('./assets/oasis.jpg') no-repeat center center fixed;
-}
-
-.drugs {
-  background: url('./assets/drugs.jpg') no-repeat center center fixed;
-}
-
-.jesus {
-  background: url('./assets/jesus.jpg') no-repeat center center fixed;
-}
-
-.people1 {
-  background: url('./assets/people1.jpg') no-repeat center center fixed;
-}
-
-.people2 {
-  background: url('./assets/people2.jpg') no-repeat center center fixed;
-}
-
-.stage {
-  background: url('./assets/stage.jpg') no-repeat center center fixed;
-}
-
-.lights {
-  background: url('./assets/lights.jpg') no-repeat center center fixed;
-}
-
-.save-card {
-  background: url('./assets/save-card.jpg') no-repeat center center fixed;
-}
-
-.sleeping-guy {
-  background: url('./assets/sleeping-guy-old.jpg') no-repeat center center fixed;
-}
-
-.end {
-  background: url('./assets/end.jpg') no-repeat center center fixed;
-}
-
-/* PHOTE SECTION */
+/* PHOTO SECTION */
 .photo-section {
   position: relative;
   height: 100vh;
@@ -302,6 +276,11 @@ nav ul li a:focus, nav ul li a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.vertical {
+  height: 200vh ;
+  background-attachment: scroll;
 }
 
 /* MEDIA QUERIES */
