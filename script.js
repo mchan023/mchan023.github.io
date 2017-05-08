@@ -63,3 +63,52 @@ $("#custom-seekbar").on("click", function(e){
 //   }
 //   document.title = message;
 // });
+
+var animationSpeed = 2000;
+var scrollInterval = $.duringScroll({
+  interval: 60,
+  always: function() {
+
+  },
+  scrollStart: function() {
+    $('nav').css({
+     'opacity': '0.4'
+    });
+  },
+  duringScroll: function() {
+
+  },
+  afterScroll: function() {
+    $('nav').css({
+     'opacity': '1'
+    });
+  }
+});
+
+$("a").on('click', function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+
+    var hash = this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800,
+    function(){
+      window.location.hash = hash;
+    });
+  }
+});
+
+
+$('.hamburger').click(function(){
+  this.classList.toggle("is-active");
+
+  var nav = $('#responsive-nav');
+  nav.toggleClass('hidden');
+  if (nav.hasClass('hidden')) {
+    // nav.css('top', 0);
+  } else {
+    // nav.css('bottom', 0);
+  }
+});
