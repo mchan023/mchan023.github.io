@@ -316,4 +316,13 @@ nav ul li a:focus, nav ul li a:hover {
     right: 25px;
     bottom: 40px;
   }
+  .offset-left-75 {
+    background-position-x: 75% !important;
+  }
+  .offset-left-60 {
+    background-position-x: 60% !important;
+  }
+  .offset-right-75 {
+    background-position-x: 25% !important;
+  }
 }
