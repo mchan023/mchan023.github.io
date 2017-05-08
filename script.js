@@ -4,9 +4,9 @@ var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
 alert(iOS);
 if (iOS) {
-  $('.first-aid').css({'background-attachment': 'fixed'});
-  $('.drugs').css({'background-attachment': 'fixed'});
-  $('.save-card').css({'background-attachment': 'fixed'});
+  $('.first-aid').css('background-attachment', 'fixed');
+  $('.drugs').css('background-attachment': 'fixed');
+  $('.save-card').css('background-attachment': 'fixed');
 }
 
 $('#control-button').on('click', () => {
