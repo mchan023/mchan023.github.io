@@ -147,6 +147,7 @@ u {
 /* FIRSTAID */
 
 .first-aid {
+  background-attachment:scroll;
   position: relative;
   height: 100vh;
   max-width: 100vw;
