@@ -175,6 +175,7 @@ nav ul li a:focus, nav ul li a:hover {
 #video-header {
   width: 100%;
   text-align: center;
+  z-index: 999;
 }
 
 .video {
@@ -326,7 +327,7 @@ nav ul li a:focus, nav ul li a:hover {
     padding: 8vh 10vw;
   }
 
-  .hero .play-button {
+  .play-button {
     font-size: 32px;
     right: 25px;
     bottom: 40px;
