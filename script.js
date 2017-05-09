@@ -5,6 +5,7 @@ $(document).ready(function() {
   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
   if (iOS) {
+    $('.hero').css('background-attachment', 'scroll');
     $('.photo-section').css('background-attachment', 'scroll');
   }
 
