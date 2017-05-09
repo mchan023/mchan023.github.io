@@ -107,14 +107,7 @@ $(document).ready(function() {
 
   $('.hamburger').click(function(){
     this.classList.toggle("is-active");
-
-    var nav = $('#responsive-nav');
-    nav.toggleClass('hidden');
-    if (nav.hasClass('hidden')) {
-      // nav.css('top', 0);
-    } else {
-      // nav.css('bottom', 0);
-    }
+    $('#responsive-nav').toggleClass('hidden');
   });
 })
 
@@ -124,11 +117,8 @@ function updateCurrentSection() {
   $('nav ul li a').each(function() {
     var sectionLink = $(this);
     var section = $(sectionLink.attr('href'));
-    // console.log(currentPos)
-    console.log(section.position().top-offset, section.position().top + section.innerHeight()-offset)
 
     if(section.position().top <= currentPos+offset && section.position().top + section.innerHeight() > currentPos+offset) {
-
       $('nav ul li').removeClass('active');
       sectionLink.addClass('active');
     } else {
