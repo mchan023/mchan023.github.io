@@ -319,11 +319,7 @@ nav ul li a:focus, nav ul li a:hover {
     border-bottom: 5px solid yellow;
   }
 
-  .intro {
-    padding: 8vh 10vw;
-  }
-
-  .message {
+  .intro, .message, .about {
     padding: 8vh 10vw;
   }
 
