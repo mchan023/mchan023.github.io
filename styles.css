@@ -60,7 +60,7 @@ u {
 }
 
 .hero-header {
-  font-size: 5rem;
+  font-size: 7vw;
   width: 70%;
   font-weight: 800;
   margin-bottom: 40px;
@@ -68,20 +68,21 @@ u {
 }
 
 .hero-subheader {
+  font-size: 3vw;
   font-weight: 500;
   width: 80%;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 .small {
-  font-size: 1rem;
+  font-size: 1.5vw;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 /* NAV */
 
 #nav {
-  transition: all 1.5s ease;
+  transition: opacity 1.5s ease;
   height: 50px;
   width: 100vw;
   position: fixed;
@@ -323,8 +324,16 @@ nav ul li a:focus, nav ul li a:hover {
     font-size: 3rem;
   }
 
+  .hero-subheader {
+    font-size: 1.5rem;
+  }
+
+  .small {
+    font-size: 0.7rem;
+  }
+
   u {
-    border-bottom: 5px solid yellow;
+    border-bottom: 8px solid yellow;
   }
 
   .intro, .message, .about {
