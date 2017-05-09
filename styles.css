@@ -285,6 +285,7 @@ nav ul li a:focus, nav ul li a:hover {
 .smoky { background: url('./assets/images/smoky.jpg') no-repeat center center fixed; }
 .sleeping-guy { background: url('./assets/images/sleeping-guy.jpg') no-repeat center center fixed; }
 .two-guys { background: url('./assets/images/two-guys.jpg') no-repeat center center fixed; }
+.vertical-lights { background: url('./assets/images/vertical-lights.jpg') no-repeat center center fixed; }
 .end { background: url('./assets/images/end.jpg') no-repeat center center fixed; }
 .dark-end { background: url('./assets/images/dark-end.jpg') no-repeat center center fixed; }
 
