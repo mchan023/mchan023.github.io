@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, p, span {
   color: white;
 }
 
+a {
+  color: #331dfd;
+  font-weight: bold;
+}
+
 p {
   font-family: helvetica;
   font-weight: 600;
