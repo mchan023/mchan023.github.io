@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  updateCurrentSection();
 
   /* Video play control code */
 
@@ -77,7 +78,7 @@ $(document).ready(function() {
       });
     },
     duringScroll: function() {
-
+      updateCurrentSection();
     },
     afterScroll: function() {
       $('nav').css({
@@ -116,3 +117,22 @@ $(document).ready(function() {
     }
   });
 })
+
+function updateCurrentSection() {
+  var currentPos = $(window).scrollTop();
+  var offset = Math.min($('#about').innerHeight(), $('#documentary').innerHeight());
+  $('nav ul li a').each(function() {
+    var sectionLink = $(this);
+    var section = $(sectionLink.attr('href'));
+    // console.log(currentPos)
+    console.log(section.position().top-offset, section.position().top + section.innerHeight()-offset)
+
+    if(section.position().top <= currentPos+offset && section.position().top + section.innerHeight() > currentPos+offset) {
+
+      $('nav ul li').removeClass('active');
+      sectionLink.addClass('active');
+    } else {
+      sectionLink.removeClass('active');
+    }
+  });
+}
