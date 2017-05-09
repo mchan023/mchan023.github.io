@@ -5,9 +5,7 @@ $(document).ready(function() {
   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
   if (iOS) {
-    $('.first-aid').css('background-attachment', 'scroll');
-    $('.drugs').css('background-attachment', 'scroll');
-    $('.save-card').css('background-attachment', 'scroll');
+    $('.photo-section').css('background-attachment', 'scroll');
   }
 
   $('#control-button').on('click', () => {
