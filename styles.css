@@ -46,7 +46,7 @@ p {
   padding: 15vh 5vw 5vh 5vw;
   min-height: 100vh;
   max-width: 100vw;
-  background: url('./assets/images/bg1.jpg') no-repeat center center fixed;
+  background: url('./assets/images/people-air.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,6 +75,7 @@ u {
 
 .small {
   font-size: 1rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
 /* NAV */
@@ -286,6 +287,7 @@ nav ul li a:focus, nav ul li a:hover {
 .sleeping-guy { background: url('./assets/images/sleeping-guy.jpg') no-repeat center center fixed; }
 .two-guys { background: url('./assets/images/two-guys.jpg') no-repeat center center fixed; }
 .vertical-lights { background: url('./assets/images/vertical-lights.jpg') no-repeat center center fixed; }
+.front-pokemon { background: url('./assets/images/front-pokemon.jpg') no-repeat center center fixed; }
 .end { background: url('./assets/images/end.jpg') no-repeat center center fixed; }
 .dark-end { background: url('./assets/images/dark-end.jpg') no-repeat center center fixed; }
 
