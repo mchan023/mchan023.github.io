@@ -20,13 +20,11 @@ $(document).ready(function() {
 
     // scroll to top
     if (isPlaying){
-      $('.hero-header').fadeIn('slow');
-      $('.hero-subheader').fadeIn('slow');
+      $('#video-header').fadeIn('slow');
       $('#custom-seekbar').fadeOut('slow');
       $('#video').get(0).pause();
     } else {
-      $('.hero-header').fadeOut('slow');
-      $('.hero-subheader').fadeOut('slow');
+      $('#video-header').fadeOut('slow');
       $('#custom-seekbar').fadeIn('slow');
       $('#video').get(0).play();
     }
