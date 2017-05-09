@@ -179,7 +179,7 @@ nav ul li a:focus, nav ul li a:hover {
 }
 
 .video {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -200,7 +200,7 @@ nav ul li a:focus, nav ul li a:hover {
   font-size: 64px;
   color: yellow;
   text-align: center;
-  position: fixed;
+  position: absolute;
   right: 50px;
   bottom: 40px;
   cursor: pointer;
@@ -213,7 +213,7 @@ nav ul li a:focus, nav ul li a:hover {
   margin: 0 auto;
   outline: thin solid yellow;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
   bottom: 50px;
   left: 0;
   right: 0;
