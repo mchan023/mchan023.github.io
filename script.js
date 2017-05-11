@@ -73,9 +73,9 @@ $(document).ready(function() {
 
     },
     scrollStart: function() {
-      $('nav').css({
-       'opacity': '0.4'
-      });
+      // $('nav').css({
+      //  'opacity': '0.4'
+      // });
     },
     duringScroll: function() {
       updateCurrentSection();
