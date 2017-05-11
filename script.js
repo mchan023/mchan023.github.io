@@ -10,7 +10,7 @@ $(document).ready(function() {
     $('.photo-section').css('background-attachment', 'scroll');
   }
 
-  $('#control-button').on('click', () => {
+  $('#control-button').on('click', function() {
 
     let isPlaying = $('#control-button').hasClass('fa-pause-circle-o');
 
