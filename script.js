@@ -113,7 +113,7 @@ $(document).ready(function() {
 
 function updateCurrentSection() {
   var currentPos = $(window).scrollTop();
-  var offset = Math.min($('#about').innerHeight(), $('#documentary').innerHeight());
+  var offset = Math.min($('#about').innerHeight(), $('#film').innerHeight());
   $('nav ul li a').each(function() {
     var sectionLink = $(this);
     var section = $(sectionLink.attr('href'));
