@@ -327,8 +327,8 @@ nav ul li a:focus, nav ul li a:hover {
   /*height: 100vh;*/
   width: 100vw;
   height: 70vh;
-  max-height: 300px;
-  max-width: 720px;
+  max-height: 400px;
+  max-width: 800px;
 
   margin: 50px auto;
   -webkit-background-size: cover;
