@@ -285,35 +285,35 @@ nav ul li a:focus, nav ul li a:hover {
 
 /* food, sign, dreamcatcher, people3, confetti, people-air, tired-guy */
 
-.food { background: url('./assets/images/food.jpg') no-repeat center center fixed; }
-.sign { background: url('./assets/images/sign.jpg') no-repeat center center fixed; }
-.dreamcatcher { background: url('./assets/images/dreamcatcher.jpg') no-repeat center center fixed; }
-.people3 { background: url('./assets/images/people3.jpg') no-repeat center center fixed; }
-.confetti { background: url('./assets/images/confetti.jpg') no-repeat center center fixed; }
-.people-air { background: url('./assets/images/people-air.jpg') no-repeat center center fixed; }
-.tired-guy { background: url('./assets/images/tired-guy.jpg') no-repeat center center fixed; }
-.plur-girl { background: url('./assets/images/plur-girl.jpg') no-repeat center center fixed; }
-.booths { background: url('./assets/images/booths.jpg') no-repeat center center fixed; }
-.water { background: url('./assets/images/water.jpg') no-repeat center center fixed; }
-.police { background: url('./assets/images/police.jpg') no-repeat center center fixed; }
-.first-aid { background: url('./assets/images/first-aid.jpg') no-repeat center center fixed; }
-.oasis { background: url('./assets/images/oasis.jpg') no-repeat center center fixed; }
-.drugs { background: url('./assets/images/drugs.jpg') no-repeat center center fixed; }
-.drugs-2 { background: url('./assets/images/drugs2.jpg') no-repeat center center fixed; }
-.alert { background: url('./assets/images/alert.jpg') no-repeat center center fixed; }
-.jesus { background: url('./assets/images/jesus.jpg') no-repeat center center fixed; }
-.people1 { background: url('./assets/images/people1.jpg') no-repeat center center fixed; }
-.people2 { background: url('./assets/images/people2.jpg') no-repeat center center fixed; }
-.stage { background: url('./assets/images/stage.jpg') no-repeat center center fixed; }
-.lights { background: url('./assets/images/lights.jpg') no-repeat center center fixed; }
-.save-card { background: url('./assets/images/save-card.jpg') no-repeat center center fixed; }
-.smoky { background: url('./assets/images/smoky.jpg') no-repeat center center fixed; }
-.sleeping-guy { background: url('./assets/images/sleeping-guy.jpg') no-repeat center center fixed; }
-.two-guys { background: url('./assets/images/two-guys.jpg') no-repeat center center fixed; }
-.vertical-lights { background: url('./assets/images/vertical-lights.jpg') no-repeat center center fixed; }
-.front-pokemon { background: url('./assets/images/front-pokemon.jpg') no-repeat center center fixed; }
-.end { background: url('./assets/images/end.jpg') no-repeat center center fixed; }
-.dark-end { background: url('./assets/images/dark-end.jpg') no-repeat center center fixed; }
+.food { background: url('./assets/images/food.jpg') no-repeat center center scroll; }
+.sign { background: url('./assets/images/sign.jpg') no-repeat center center ; }
+.dreamcatcher { background: url('./assets/images/dreamcatcher.jpg') no-repeat center center ; }
+.people3 { background: url('./assets/images/people3.jpg') no-repeat center center ; }
+.confetti { background: url('./assets/images/confetti.jpg') no-repeat center center ; }
+.people-air { background: url('./assets/images/people-air.jpg') no-repeat center center ; }
+.tired-guy { background: url('./assets/images/tired-guy.jpg') no-repeat center center ; }
+.plur-girl { background: url('./assets/images/plur-girl.jpg') no-repeat center center ; }
+.booths { background: url('./assets/images/booths.jpg') no-repeat center center ; }
+.water { background: url('./assets/images/water.jpg') no-repeat center center ; }
+.police { background: url('./assets/images/police.jpg') no-repeat center center ; }
+.first-aid { background: url('./assets/images/first-aid.jpg') no-repeat center center ; }
+.oasis { background: url('./assets/images/oasis.jpg') no-repeat center center ; }
+.drugs { background: url('./assets/images/drugs.jpg') no-repeat center center ; }
+.drugs-2 { background: url('./assets/images/drugs2.jpg') no-repeat center center ; }
+.alert { background: url('./assets/images/alert.jpg') no-repeat center center ; }
+.jesus { background: url('./assets/images/jesus.jpg') no-repeat center center ; }
+.people1 { background: url('./assets/images/people1.jpg') no-repeat center center ; }
+.people2 { background: url('./assets/images/people2.jpg') no-repeat center center ; }
+.stage { background: url('./assets/images/stage.jpg') no-repeat center center ; }
+.lights { background: url('./assets/images/lights.jpg') no-repeat center center ; }
+.save-card { background: url('./assets/images/save-card.jpg') no-repeat center center ; }
+.smoky { background: url('./assets/images/smoky.jpg') no-repeat center center ; }
+.sleeping-guy { background: url('./assets/images/sleeping-guy.jpg') no-repeat center center ; }
+.two-guys { background: url('./assets/images/two-guys.jpg') no-repeat center center ; }
+.vertical-lights { background: url('./assets/images/vertical-lights.jpg') no-repeat center center ; }
+.front-pokemon { background: url('./assets/images/front-pokemon.jpg') no-repeat center center ; }
+.end { background: url('./assets/images/end.jpg') no-repeat center center ; }
+.dark-end { background: url('./assets/images/dark-end.jpg') no-repeat center center ; }
 
 /* PHOTO SECTION */
 
@@ -322,9 +322,11 @@ nav ul li a:focus, nav ul li a:hover {
 }
 
 .photo-section {
+  background-attachment: scroll;
   position: relative;
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100vw;
+  height: 70vh;
   max-width: 720px;
 
   margin: 0 auto;
@@ -376,7 +378,7 @@ nav ul li a:focus, nav ul li a:hover {
 
   .play-button {
     font-size: 32px;
-    right: 25px;
+    /*right: 25px;*/
     bottom: 40px;
   }
   .offset-left-75 {
