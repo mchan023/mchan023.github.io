@@ -269,6 +269,8 @@ nav ul li a:focus, nav ul li a:hover {
   color: black;
 }
 
+/* ABOUT */
+
 .about {
   position: relative;
   min-height: 50vh;
@@ -279,6 +281,19 @@ nav ul li a:focus, nav ul li a:hover {
 
 .about h2 {
   font-weight: bold;
+}
+
+.about-text {
+  vertical-align: top;
+}
+
+.mc-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  float: right;
 }
 
 /* PHOTOS */
@@ -344,6 +359,16 @@ nav ul li a:focus, nav ul li a:hover {
 
 /* MEDIA QUERIES */
 
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .intro, .message, .about {
+    padding: 8vh 8vw;
+  }
+
+  .mc-img {
+    /*height: 10vh;*/
+  }
+}
+
 @media only screen and (max-width: 40em) {
   body {
     padding-right: 0;
@@ -387,5 +412,16 @@ nav ul li a:focus, nav ul li a:hover {
   }
   .offset-left-60 {
     background-position-x: 60% !important;
+  }
+
+  .about h2 {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .mc-img {
+    float: right;
+    width: 35%;
+    margin: 10px;
   }
 }
