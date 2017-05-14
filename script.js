@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   $('#control-button').on('click', function() {
 
-    let isPlaying = $('#control-button').hasClass('fa-pause-circle-o');
+    var isPlaying = $('#control-button').hasClass('fa-pause-circle-o');
 
     $('#control-button').toggleClass('fa-play-circle-o');
     $('#control-button').toggleClass('fa-pause-circle-o');
