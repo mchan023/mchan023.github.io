@@ -187,9 +187,8 @@ nav ul li a:focus, nav ul li a:hover {
 
 .documentary {
   position: relative;
-  padding: 10vh 5vw;
+  padding: 10vh 2vw;
   text-align: center;
-  /*min-height: 100vh;*/
   max-width: 100vw;
 }
 
