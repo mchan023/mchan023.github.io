@@ -187,10 +187,15 @@ nav ul li a:focus, nav ul li a:hover {
 
 .documentary {
   position: relative;
-  padding: 40vh 5vw 5vh 5vw;
+  padding: 10vh 5vw;
   text-align: center;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   max-width: 100vw;
+}
+
+iframe {
+  width: 100%;
+  /*padding: 20vh 0;*/
 }
 
 #video-header {

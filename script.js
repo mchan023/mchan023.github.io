@@ -1,6 +1,9 @@
 $(document).ready(function() {
   updateCurrentSection();
 
+  // console.log($("video").prop("volume", .5));
+  // console.log($("video").prop("volume"));
+
   /* Video play control code */
 
   var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
