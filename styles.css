@@ -425,6 +425,10 @@ iframe {
     vertical-align: bottom;
   }
 
+  .photo-section {
+    max-height: 350px;
+  }
+
   .mc-img {
     float: right;
     width: 35%;
