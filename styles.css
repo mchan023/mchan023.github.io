@@ -408,11 +408,16 @@ iframe {
     padding: 8vh 10vw;
   }
 
+  .documentary {
+    max-height: 400px;
+    min-height: 0;
+  }
+
   .play-button {
     font-size: 32px;
-    /*right: 25px;*/
     bottom: 40px;
   }
+
   .offset-left-75 {
     background-position-x: 75% !important;
   }
